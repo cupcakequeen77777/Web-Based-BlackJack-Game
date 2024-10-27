@@ -1,0 +1,33 @@
+<!-- Document owned and created by Omar Syed -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Blackjack Game for Selenium Testing</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/deck.js"></script>
+    <script defer src="js/blackjackGame.js"></script>
+</head>
+<body>
+    <h1>Blackjack Game for Selenium Testing</h1>
+    <div class="game-container">
+        <div class="dealer">
+            <h2>Dealer's Hand</h2>
+            <div id="dealer-cards" class="cards"></div>
+            <p id="dealer-score">Score: 0</p>
+        </div>
+        <div class="player">
+            <h2>Your Hand</h2>
+            <div id="player-cards" class="cards"></div>
+            <p id="player-score">Score: 0</p>
+        </div>
+        <div class="controls">
+            <button id="hit-button">Hit</button>
+            <button id="stand-button">Stand</button>
+            <button id="restart-button" disabled>Restart</button>
+        </div>
+        <p id="game-status"></p>
+    </div>
+</body>
+</html>

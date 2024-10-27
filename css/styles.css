@@ -1,0 +1,33 @@
+/* Document owned and created by Omar Syed */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #008000;
+    color: white;
+}
+.game-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+.card {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    width: 60px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.hidden-card {
+    background-color: grey;
+    color: grey;
+}
+.controls {
+    margin: 20px;
+}
