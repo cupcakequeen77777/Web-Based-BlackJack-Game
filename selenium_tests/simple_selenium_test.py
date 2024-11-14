@@ -9,7 +9,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 try:
     # CHANGES MUST BE MADE HERE FOR RIGHT DIRECTORY
-    driver.get("file:///C:/Users/irock/Documents/Selenium-Tutorial/blackjack-game/index.html")
+    driver.get("file:///C:\\Users\leean\OneDrive - Carleton University\Documents\School\COMP\COMP 4004\Web-Based-BlackJack-Game\index.html")
 
     time.sleep(2)
 
