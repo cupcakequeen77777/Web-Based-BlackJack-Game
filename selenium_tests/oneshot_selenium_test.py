@@ -12,7 +12,9 @@ class BlackjackGameTest(unittest.TestCase):
     def setUpClass(cls):
         cls.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         # CHANGES MUST BE MADE HERE FOR RIGHT DIRECTORY
-        cls.driver.get("file:///C:/Users/irock/Documents/Selenium-Tutorial/blackjack-game/index.html")
+        cls.driver.get("file:///C:\\Users\leean\OneDrive - Carleton University\Documents\School\COMP\COMP 4004\Web-Based-BlackJack-Game\index.html")
+        # cls.driver.get("file:///C:/Users/irock/Documents/Selenium-Tutorial/blackjack-game/index.html")
+        # C:\Users\leean\OneDrive - Carleton University\Documents\School\COMP\COMP 4004\Web-Based-BlackJack-Game\index.html
         cls.driver.maximize_window()
         time.sleep(2)
 
